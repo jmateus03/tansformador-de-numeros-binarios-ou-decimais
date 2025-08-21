@@ -6,10 +6,11 @@ let opcoes = document.getElementById("opcoes")
 function levi() {
     if(opcoes.value === "binario") {
     let binario = parseInt(pergunta.value).toString(2)
+
     escrita.innerHTML = `O seu numero transformado em binario é ${binario}`
-    pergunta.value += ``
 }else if (opcoes.value === "decimal") {
-    let decimal = parseInt(pergunta.value) 
+    let decimal = parseInt(pergunta.value , 2).toString(10)
+
     escrita.innerHTML = `O seu numero transformado em decimal é ${decimal}`
 }
 }
