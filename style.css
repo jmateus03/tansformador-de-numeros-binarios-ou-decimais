@@ -1,0 +1,27 @@
+.tudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+    font-size: 5vh;
+    gap:12px;
+}
+#pergunta{
+font-size: 4vh;
+border-radius: 10px;
+border-color: rgb(49, 26, 26);
+}
+#opcoes{
+    height: 4vh;
+    width: 23vh;
+    text-align: center;
+font-size: 3vh;
+border-radius:5px;
+}
+.escrever{
+    font-size: 30px;
+}
+#transformar{
+    font-size: 30px;
+    border-radius: 5px;
+}
