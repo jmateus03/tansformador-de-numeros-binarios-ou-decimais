@@ -10,6 +10,7 @@
 font-size: 4vh;
 border-radius: 10px;
 border-color: rgb(49, 26, 26);
+text-align: center;   
 }
 #opcoes{
     height: 4vh;
@@ -20,10 +21,10 @@ border-radius:5px;
 }
 .escrever{
     font-size: 30px;
-    text-align: center;
 }
 #transformar{
     font-size: 30px;
     border-radius: 5px;
 
 }
+
