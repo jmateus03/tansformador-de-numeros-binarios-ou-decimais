@@ -20,8 +20,10 @@ border-radius:5px;
 }
 .escrever{
     font-size: 30px;
+    text-align: center;
 }
 #transformar{
     font-size: 30px;
     border-radius: 5px;
+
 }
